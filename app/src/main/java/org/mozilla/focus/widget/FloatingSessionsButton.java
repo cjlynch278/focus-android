@@ -60,7 +60,7 @@ public class FloatingSessionsButton extends FloatingActionButton {
         this.tabCount = tabCount;
 
         setContentDescription(
-            getResources().getString(R.string.content_description_tab_counter, String.valueOf(tabCount)));
+                getResources().getString(R.string.content_description_tab_counter, String.valueOf(tabCount)));
 
         final CoordinatorLayout.LayoutParams params = (CoordinatorLayout.LayoutParams) getLayoutParams();
         final FloatingActionButtonBehavior behavior = (FloatingActionButtonBehavior) params.getBehavior();
